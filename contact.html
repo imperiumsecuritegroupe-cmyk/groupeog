@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Devis Gratuit – GROUPE OG</title>
+  <meta name="description" content="Contactez GROUPE OG pour un audit gratuit. Facility management, maintenance multitechnique, CVC, électricité, énergie solaire, propreté.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="nav.js"></script>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <div class="page-hero-icon">💬</div>
+    <h1>Contactez-nous</h1>
+    <p>Audit technique gratuit de votre patrimoine. Un expert FM vous répond sous 24h avec un plan d'action personnalisé.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- INFOS -->
+      <div>
+        <div class="section-tag">Nous contacter</div>
+        <h2 style="margin-bottom:1.5rem;">Parlons de votre projet</h2>
+        <p style="color:var(--gray);margin-bottom:2rem;">Que vous ayez un projet de construction, de rénovation, d'installation solaire ou une demande d'équipements professionnels, nous sommes à votre écoute.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <h4>Téléphone</h4>
+            <p>07 69 25 22 96<br><small style="color:var(--gray);">Lun – Ven : 8h – 18h | Sam : 9h – 12h</small></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-item-text">
+            <h4>Email</h4>
+            <p>contact@groupe-og.com<br><small style="color:var(--gray);">Réponse sous 24h ouvrées</small></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <h4>Adresse</h4>
+            <p>50 boulevard Stalingrad<br>06000 – Nice, France</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⏰</div>
+          <div class="contact-item-text">
+            <h4>Horaires d'ouverture</h4>
+            <p>Lundi – Vendredi : 8h00 – 18h00<br>Samedi : 9h00 – 12h00<br><small style="color:var(--accent);font-weight:600;">Urgences 24h/24 – 7j/7</small></p>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem;">
+          <h3 style="margin-bottom:1.25rem;color:var(--primary);">Nos services</h3>
+          <div style="display:flex;flex-wrap:wrap;gap:.5rem;">
+            <span class="tag tag-accent">🏢 FM Global</span>
+            <span class="tag tag-accent">📋 Audit Technique</span>
+            <span class="tag">🏛️ Gros Œuvres</span>
+            <span class="tag">🔨 Seconds Œuvres</span>
+            <span class="tag">🔧 Plomberie & CVC</span>
+            <span class="tag">⚡ Électricité & GTB</span>
+            <span class="tag">☀️ Énergie Solaire</span>
+            <span class="tag">🧹 Propreté</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="form-card">
+        <h3 style="color:var(--primary);margin-bottom:.5rem;">Demande d'audit ou de devis</h3>
+        <p style="color:var(--gray);font-size:.92rem;margin-bottom:1.75rem;">Remplissez le formulaire, un expert Facility Management vous rappelle sous 24h.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom *</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom *</label>
+              <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.fr" required>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Téléphone *</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="06 00 00 00 00" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="societe">Société (si professionnel)</label>
+            <input type="text" id="societe" name="societe" placeholder="Nom de votre entreprise">
+          </div>
+          <div class="form-group">
+            <label for="service">Service concerné *</label>
+            <select id="service" name="service" required>
+              <option value="">-- Choisissez un service --</option>
+              <optgroup label="🏢 FM Externalisé">
+                <option value="fm-global">Facility Management Global (multi-sites)</option>
+                <option value="fm-audit">Audit Technique de Patrimoine</option>
+                <option value="immobilier">Gestion Immobilière & Asset Management</option>
+                <option value="services-generaux">Services Généraux (accueil, courrier, helpdesk...)</option>
+                <option value="securite-surete">Sécurité & Sûreté (gardiennage, contrôle accès...)</option>
+                <option value="espaces-verts">Espaces Verts & Développement Durable</option>
+              </optgroup>
+              <optgroup label="🔧 Maintenance Technique">
+                <option value="fm-maintenance">Contrat Maintenance Multitechnique</option>
+                <option value="gros-oeuvres">Gros Œuvres & Maçonnerie</option>
+                <option value="seconds-oeuvres">Seconds Œuvres & Finitions</option>
+                <option value="plomberie-cvc">Plomberie & CVC</option>
+                <option value="electricite-gtb">Électricité & GTB</option>
+                <option value="photovoltaique">Énergie Solaire Photovoltaïque</option>
+                <option value="nettoyage">Propreté & Nettoyage</option>
+              </optgroup>
+              <option value="autre">Autre / Plusieurs services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget estimé</label>
+            <select id="budget" name="budget">
+              <option value="">-- Budget prévisionnel --</option>
+              <option value="moins-5k">Moins de 5 000 €</option>
+              <option value="5k-15k">5 000 € – 15 000 €</option>
+              <option value="15k-50k">15 000 € – 50 000 €</option>
+              <option value="50k-100k">50 000 € – 100 000 €</option>
+              <option value="plus-100k">Plus de 100 000 €</option>
+              <option value="non-defini">Non défini</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Description du projet *</label>
+            <textarea id="message" name="message" placeholder="Décrivez votre projet, vos besoins, la localisation des travaux, les délais souhaités..." required></textarea>
+          </div>
+          <div class="form-group" style="display:flex;align-items:flex-start;gap:.75rem;margin-bottom:1.5rem;">
+            <input type="checkbox" id="rgpd" name="rgpd" required style="margin-top:3px;width:auto;accent-color:var(--accent);">
+            <label for="rgpd" style="font-size:.88rem;color:var(--gray);font-weight:400;cursor:pointer;">
+              J'accepte que mes données soient utilisées pour traiter ma demande conformément à la <a href="#" style="color:var(--accent);">politique de confidentialité</a>.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:1rem;">
+            Envoyer ma demande de devis →
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MAP PLACEHOLDER -->
+<section class="section section-light" style="padding-top:0;">
+  <div class="container">
+    <div style="background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:16px;height:300px;display:flex;align-items:center;justify-content:center;color:white;text-align:center;">
+      <div>
+        <div style="font-size:3rem;margin-bottom:1rem;">📍</div>
+        <h3>Votre adresse ici</h3>
+        <p style="color:rgba(255,255,255,.8);">50 boulevard Stalingrad, 06000 Nice</p>
+        <a href="#" style="color:var(--accent);font-weight:600;margin-top:.5rem;display:block;">Voir sur Google Maps →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">FAQ</div>
+      <h2>Questions fréquentes</h2>
+    </div>
+    <div style="max-width:760px;margin:0 auto;">
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">Les devis sont-ils gratuits et sans engagement ? <span class="accordion-icon">▾</span></button>
+          <div class="accordion-body">Oui, tous nos devis sont entièrement gratuits et sans engagement. Nous effectuons une visite sur site pour évaluer vos besoins et vous remettons une proposition détaillée sous 48 à 72h.</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Dans quelles zones intervenez-vous ? <span class="accordion-icon">▾</span></button>
+          <div class="accordion-body">GROUPE OG intervient sur l'ensemble du territoire national. Pour les urgences, nous couvrons principalement la région Île-de-France et les grandes agglomérations. Contactez-nous pour vérifier la disponibilité dans votre secteur.</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Proposez-vous des financements pour les travaux ? <span class="accordion-icon">▾</span></button>
+          <div class="accordion-body">Oui, nous travaillons avec des partenaires financiers pour vous proposer des solutions de financement adaptées à votre budget. Nous vous accompagnons également dans les démarches pour obtenir les aides de l'État (MaPrimeRénov', CEE, etc.).</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Quelles garanties offrez-vous sur vos travaux ? <span class="accordion-icon">▾</span></button>
+          <div class="accordion-body">Tous nos travaux bénéficient de la garantie légale : garantie de parfait achèvement (1 an), garantie biennale (2 ans) et garantie décennale (10 ans) pour les travaux de gros œuvres et de structure. Nous sommes assurés en responsabilité civile professionnelle et décennale.</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Comment se déroule une commande de matériels de sécurité ? <span class="accordion-icon">▾</span></button>
+          <div class="accordion-body">Pour les commandes B2B, contactez notre service commercial par téléphone ou email. Nous vous adressons un catalogue et un devis sous 24h. Les commandes sont expédiées sous 24 à 72h selon disponibilité, avec livraison sur site ou en entrepôt.</div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">Êtes-vous disponibles pour les urgences ? <span class="accordion-icon">▾</span></button>
+          <div class="accordion-body">Oui, notre service dépannage plomberie et chauffage est disponible 24h/24 et 7j/7, y compris les jours fériés. Appelez directement notre numéro d'urgence pour une intervention rapide.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:.75rem;color:white;font-weight:800;font-size:1.4rem;margin-bottom:.5rem;">
+        <div style="width:42px;height:42px;background:var(--accent);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;">🏢</div>
+        GROUPE<span style="color:var(--accent)">OG</span>
+      </div>
+      <p>Expert Facility Management : maintenance multitechnique, gestion immobilière, services généraux, sécurité et propreté. Basé à Nice.</p>
+    </div>
+    <div class="footer-col">
+      <h4>FM Externalisé</h4>
+      <ul>
+        <li><a href="immobilier.html">Gestion Immobilière</a></li>
+        <li><a href="services-generaux.html">Services Généraux</a></li>
+        <li><a href="securite-surete.html">Sécurité &amp; Sûreté</a></li>
+        <li><a href="espaces-verts.html">Espaces Verts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Maintenance Technique</h4>
+      <ul>
+        <li><a href="gros-oeuvres.html">Gros Œuvres &amp; Maçonnerie</a></li>
+        <li><a href="plomberie-chauffage.html">Plomberie &amp; CVC</a></li>
+        <li><a href="electricite.html">Électricité &amp; GTB</a></li>
+        <li><a href="photovoltaique.html">Énergie Solaire</a></li>
+        <li><a href="nettoyage.html">Propreté &amp; Nettoyage</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+33769252296">📞 07 69 25 22 96</a></li>
+        <li><a href="mailto:contact@groupe-og.com">✉️ contact@groupe-og.com</a></li>
+        <li><a href="contact.html">💬 Audit gratuit</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>© 2024 <span>GROUPE OG</span>. Tous droits réservés.</p></div>
+</footer>
+<button id="scroll-top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
