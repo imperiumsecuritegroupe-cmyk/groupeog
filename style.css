@@ -315,7 +315,7 @@ p  { margin-bottom: 1rem; }
 }
 .feature-card-dark:hover { background: rgba(196,165,90,.06); border-color: rgba(196,165,90,.3); transform: translateY(-3px); }
 .feature-card-dark h3 { color: var(--white); margin-bottom: .6rem; }
-.feature-card-dark p { color: rgba(255,255,255,.58); font-size: .9rem; margin: 0; line-height: 1.65; }
+.feature-card-dark p { color: rgba(255,255,255,.88); font-size: .9rem; margin: 0; line-height: 1.65; }
 .feature-card-dark .feature-icon { background: linear-gradient(135deg,rgba(196,165,90,.25),rgba(196,165,90,.1)); box-shadow: none; }
 
 /* ---- INFO CARD (dark bg) ---- */
