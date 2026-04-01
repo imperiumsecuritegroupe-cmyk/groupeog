@@ -314,12 +314,12 @@ p  { margin-bottom: 1rem; }
 
 /* Dark feature card */
 .feature-card-dark {
-  background: rgba(255,255,255,.04); border: 1px solid rgba(196,165,90,.15);
+  background: var(--white); border: 1px solid rgba(196,165,90,.25);
   border-radius: var(--radius-lg); padding: 2.25rem; transition: all var(--transition);
 }
-.feature-card-dark:hover { background: rgba(196,165,90,.06); border-color: rgba(196,165,90,.3); transform: translateY(-3px); }
-.feature-card-dark h3 { color: var(--white); margin-bottom: .6rem; }
-.feature-card-dark p { color: rgba(255,255,255,.88); font-size: .9rem; margin: 0; line-height: 1.65; }
+.feature-card-dark:hover { background: var(--off-white); border-color: rgba(196,165,90,.5); transform: translateY(-3px); }
+.feature-card-dark h3 { color: var(--navy); margin-bottom: .6rem; }
+.feature-card-dark p { color: var(--text); font-size: .9rem; margin: 0; line-height: 1.65; }
 .feature-card-dark .feature-icon { background: linear-gradient(135deg,rgba(196,165,90,.25),rgba(196,165,90,.1)); box-shadow: none; }
 
 /* ---- INFO CARD (dark bg) ---- */
