@@ -199,16 +199,23 @@ p:last-child { margin-bottom: 0; }
 .nav-link.active { color: var(--orange); }
 .nav-link .arrow { font-size: .65rem; opacity: .7; transition: transform var(--transition); }
 .nav-item-mega:hover .arrow { transform: rotate(180deg); }
+/* Pont invisible qui comble le gap entre le lien et le dropdown */
+.nav-item-mega::after {
+  content: ''; position: absolute;
+  top: 100%; left: 0; right: 0;
+  height: 14px; /* couvre le gap de 10px + marge */
+}
+
 
 /* Dropdowns */
 .dropdown {
-  position: absolute; top: calc(100% + 10px); left: 0;
+  position: absolute; top: 100%; left: 0;
   background: var(--white); border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg); border: 1px solid var(--border);
-  min-width: 230px; padding: .6rem;
+  min-width: 230px; padding: .5rem; padding-top: .85rem; margin-top: 4px;
   opacity: 0; visibility: hidden; pointer-events: none;
   transform: translateY(-8px);
-  transition: opacity var(--transition), visibility var(--transition), transform var(--transition);
+  transition: opacity .22s ease, visibility .22s ease, transform .22s ease;
 }
 .nav-item-mega:hover .dropdown {
   opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0);
