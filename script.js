@@ -84,7 +84,7 @@ const observer = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.service-card, .feature-card, .info-card, .testimonial-card').forEach(el => {
+document.querySelectorAll('.service-card, .feature-card, .feature-card-dark, .info-card, .testimonial-card, .pole-card, .sector-card, .step, .pillar').forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(24px)';
   el.style.transition = 'opacity .55s ease, transform .55s ease';
